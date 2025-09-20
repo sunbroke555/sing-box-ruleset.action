@@ -35,7 +35,7 @@ jobs:
 
     - name: Fetch and Compile Sing-Box Rules from ruleset
       run: |
-        git remote add ruleset https://github.com/SukkaLab/ruleset.skk.moe.git
+        git remote add ruleset https://github.com/sunbroke555/ruleset.singbox.git
         git fetch ruleset
         git checkout ruleset/master -- sing-box
         rm -rf domainset ip non_ip
